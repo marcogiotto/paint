@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#table-cont{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modal{
+    background: white;
+    padding: 1em;
+    position: absolute;
+    min-width: 250px;
+}
+
+#colors-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style:none;
+}
+.btn-color{
+    border: 3px solid lightgray;
+    height: 30px;
+    width: 30px;
+    transition: all 1s ease;
+}
+.btn-color:hover {
+    border: 3px solid black;
+}
+
+.active {
+    border: 3px solid magenta;
+}

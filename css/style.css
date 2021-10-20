@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    position: relative;
+    overflow: hidden;
+}
 #table-cont{
     display: flex;
     align-items: center;

@@ -1,8 +1,7 @@
-
-const innerWidth = window.innerWidth;
+const innerWidth = document.querySelector('html').clientWidth;
 const appHeight = window.innerHeight;
 const cellWidth = innerWidth / 100;
-const cellHeight = innerWidth / 100;
+const cellHeight = cellWidth;
 const tabRows = parseInt(appHeight / cellWidth);
 const tableCells = 100 * tabRows;
 const table = document.getElementById('table-cont');
